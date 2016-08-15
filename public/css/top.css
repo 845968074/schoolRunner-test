@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    background-color: #ece8cf;
+}
+.banana{
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+}
+.runner{
+    width: 80px;
+    height: 60px;
+    overflow: hidden;
+}

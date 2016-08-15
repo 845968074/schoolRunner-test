@@ -1,16 +1,7 @@
-/*.home
-{
-    width: 80%;
-    margin: 150px auto;
-}*/
-/*#myCarousel
-{
-    height: 80%;
-    width: auto;
-}*/
+
 #homes
 {
-    margin: auto;
+    margin: 0px auto;
 }
 img
 {
@@ -21,12 +12,16 @@ img
 
 .page
 {
+    margin: auto;
     width: 90%;
-    margin: 0 auto;
 }
 .active
 {
     border: none !important;
+
+    padding: 0 !important;
+    height: 500px;
+
 }
 .carousel-control.right
 {
@@ -36,3 +31,4 @@ img
 {
     background-image: none !important;
 }
+
