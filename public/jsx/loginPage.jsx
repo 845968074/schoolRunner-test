@@ -71,7 +71,7 @@ class Login extends React.Component {
             export default LoginPage;*/}
 import React from 'react';
 import {Link} from 'react-router';
-require('../css/login.css');
+require('./login.css');
 
 class Login extends React.Component{
     render(){
