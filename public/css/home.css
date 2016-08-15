@@ -1,0 +1,38 @@
+/*.home
+{
+    width: 80%;
+    margin: 150px auto;
+}*/
+/*#myCarousel
+{
+    height: 80%;
+    width: auto;
+}*/
+#homes
+{
+    margin: auto;
+}
+img
+{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.page
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.active
+{
+    border: none !important;
+}
+.carousel-control.right
+{
+    background-image: none !important;
+}
+.carousel-control.left
+{
+    background-image: none !important;
+}

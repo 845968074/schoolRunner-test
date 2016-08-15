@@ -9,7 +9,6 @@ import ReactDOM from 'react-dom';
 require('jquery');
 require("bootstrap-webpack");
 import $ from 'jquery';
-
 // ReactDOM.render(
 //   <LoginPage />,
 //   document.getElementById("content")

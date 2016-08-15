@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: [
-        './public/entry.jsx',
+        './public/jsx/entry.jsx',
         'webpack-hot-middleware/client'
     ],
     output: {
@@ -38,7 +38,12 @@ module.exports = {
             }, {
                 test: require.resolve("jquery"),
                 loader: "expose?$!expose?jQuery"
+            },
+            {
+                test: /\.(png|jpg|jpeg)$/,
+                loader: 'url-loader?limit=8192'
             }],
+
     },
     plugins: [
         // Webpack 1.0

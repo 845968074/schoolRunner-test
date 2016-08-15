@@ -1,0 +1,18 @@
+footer{
+    background-color: #ece8cf;
+    height: 85px;
+    text-align: center;
+    padding-top: 15px;
+    color: #959595;
+}
+#divFooter{
+    margin-top: 8px;
+}
+a{
+    color: #959595;
+    margin-right: 15px;
+
+}
+a:hover{
+    color:#959595;
+}
